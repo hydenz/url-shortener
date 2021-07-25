@@ -1,0 +1,39 @@
+.item:not(:first-child) {
+  margin-top: 1px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fade 0.5s linear;
+}
+
+.item__icon {
+  margin-left: 1rem;
+  width: calc(11px + 0.4vw);
+}
+
+.item__icon:hover {
+  cursor: pointer;
+}
+
+.item__icons__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
