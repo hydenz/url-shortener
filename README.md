@@ -2,4 +2,4 @@
 URL Shortener project made with React + Express
 
 Deployed at
-url-shortener.marcelofl.com/
+https://url-shortener.marcelofl.com/
